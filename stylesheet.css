@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.top-container{
+    background-image: url("ui.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.title-text{
+width: 100%;
+position: absolute;
+top: 30vh;
+transform: translateY(-50);
+text-align: left;
+left: 17vw;
+color: #353535;
+}
+.title-text h1{
+    font-family: "Sriracha", cursive;
+    font-size: 3rem;
+}
+.title-text h2{
+    font-family: "Nova Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+.edu{
+    font-family: "Dekko", cursive;
+    font-size: 3.5rem;
+}
+
+.middle-container{
+    background-image: url('ui1.png');
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0%;
+    color: white;
+}
+.profile h2{
+    font-size: 3rem;
+    font-family: "Dekko", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.profile p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.profile img{
+    border-radius: 10%;
+    position: relative;
+    width: 15vw;
+    box-shadow: 0 0 5px rgb(78, 78, 78);
+}
+.hover:hover{
+    scale: 1.1;
+    transition: 100ms;
+}
+.skills{
+    color: white;
+    font-family: "Dekko", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.skills h2{
+    font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 2vh;
+  padding: 1vh;
+  color: #b7e8ff;
+  background-color: #5e5e5e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+.skills-container img{
+    height: 30vh;
+    
+}
+.skill h3{
+    font-size: 1.8rem;
+    color:#f2ffc1;
+}
+.skill p{
+    font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(33, 117, 165);
+    align-items: center;
+    font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color:black;
+}
+.bottom-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction:row;
+    gap: 2rem;
+}
+.bottom-links a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+.bottom-links a:active{
+    text-decoration: underline;
+}
+.bottom-links a:hover {
+    text-decoration: underline;
+    color: azure;
+}
